@@ -6,7 +6,7 @@ http.createServer((req, res) => res.end('Bot actif!')).listen(3000);
 function createBot() {
   const bot = mineflayer.createBot({
     host: 'survivalwordforfun.aternos.me',
-    port: 25565,
+    port: 26908,
     username: 'garfield',
     version: '1.21.1'
   });
